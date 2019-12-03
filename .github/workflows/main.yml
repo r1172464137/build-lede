@@ -34,5 +34,5 @@ jobs:
         make -j8 V=s
     - uses: actions/upload-artifact@master
       with:
-        name: Newifi3
+        name: pw
         path: /home/runner/lede/bin
