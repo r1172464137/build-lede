@@ -31,7 +31,7 @@ jobs:
     - name: Build
       run: | 
         cd /home/runner/lede 
-        make -j8 V=s
+        make -j6 v=s
     - uses: actions/upload-artifact@master
       with:
         name: pw
